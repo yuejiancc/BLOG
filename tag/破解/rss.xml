@@ -38,8 +38,8 @@
 &lt;/blockquote&gt;
 &lt;hr /&gt;
 &lt;h2 id=&#34;破解思路&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#破解思路&#34;&gt;#&lt;/a&gt; 破解思路&lt;/h2&gt;
-&lt;h3 id=&#34;通过dhcp-server入手即-udp53端口&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#通过dhcp-server入手即-udp53端口&#34;&gt;#&lt;/a&gt; 通过 DHCP server 入手，即 udp53 端口&lt;/h3&gt;
 &lt;h3 id=&#34;搭建softether-vpn&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#搭建softether-vpn&#34;&gt;#&lt;/a&gt; 搭建 softether VPN&lt;/h3&gt;
+&lt;h4 id=&#34;通过dhcp-server入手即-udp53端口&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#通过dhcp-server入手即-udp53端口&#34;&gt;#&lt;/a&gt; 通过 DHCP server 入手，即 udp53 端口&lt;/h4&gt;
 &lt;blockquote&gt;
 &lt;p&gt;优点：学校晚上断网后可用&lt;br /&gt;
 缺点：传输效率低，仅 Windows 可绕过&lt;/p&gt;
