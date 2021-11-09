@@ -7,11 +7,11 @@
         <language>zh-CN</language>
         <pubDate>Tue, 09 Nov 2021 13:03:39 +0800</pubDate>
         <lastBuildDate>Tue, 09 Nov 2021 13:03:39 +0800</lastBuildDate>
+        <category>闲聊</category>
+        <category>分享</category>
         <category>学校</category>
         <category>网络</category>
         <category>破解</category>
-        <category>闲聊</category>
-        <category>分享</category>
         <item>
             <guid isPermalink="true">https://blog.yuejian.fun/2021/11/09/%E6%B5%85%E8%B0%88%E6%A0%A1%E5%9B%AD%E7%BD%91%E8%AE%A4%E8%AF%81%E5%8E%9F%E7%90%86-%E7%A0%B4%E8%A7%A3%E6%96%B9%E6%B3%95/</guid>
             <title>浅谈校园网认证原理&amp;多设备共享方法</title>
@@ -119,9 +119,9 @@
 &lt;blockquote&gt;
 &lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL2RyY29tcy9kcmNvbS1nZW5lcmljLmdpdA==&#34;&gt;drcom-generic&lt;/span&gt;&lt;br /&gt;
 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL21jaG9tZS9vcGVud3J0LWRvZ2NvbS5naXQ=&#34;&gt;openwrt-dogcom&lt;/span&gt;&lt;br /&gt;
-&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL21jaG9tZS9sdWNpLWFwcC1kb2djb20uZ2l0&#34;&gt;luci-app-dogcom&lt;/span&gt;&lt;br /&gt;
-1. 将 dogcom 编译进 immortalwrt&lt;/p&gt;
+&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL21jaG9tZS9sdWNpLWFwcC1kb2djb20uZ2l0&#34;&gt;luci-app-dogcom&lt;/span&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
+&lt;p&gt;1. 将 dogcom 编译进 immortalwrt&lt;/p&gt;
 &lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;git&lt;/span&gt; clone -b openwrt-18.06-k5.4 https://github.com/immortalwrt/immortalwrt.git &lt;span class=&#34;token operator&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&#34;token builtin class-name&#34;&gt;cd&lt;/span&gt; package  &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;git&lt;/span&gt; clone https://github.com/mchome/openwrt-dogcom.git &lt;span class=&#34;token operator&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;git&lt;/span&gt; clone https://github.com/mchome/luci-app-dogcom.git&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;然后 &lt;code&gt;make menuconfig&lt;/code&gt;  时在 luci&amp;gt;Application 选中 dogcom 就行&lt;br /&gt;
  dogcom 配置文件获取详见&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL2RyY29tcy9kcmNvbS1nZW5lcmljL3dpa2kvZCVFNyU4OSU4OCVFNyVBRSU4MCVFNyU5NSVBNSVFNCVCRCVCRiVFNyU5NCVBOCVFNSU5MiU4QyVFOSU4NSU4RCVFNyVCRCVBRSVFOCVBRiVCNCVFNiU5OCU4RQ==&#34;&gt; wiki&lt;/span&gt;&lt;/p&gt;
 &lt;hr /&gt;
