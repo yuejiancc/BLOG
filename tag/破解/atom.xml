@@ -24,7 +24,7 @@
 2.BAS 建立 ACL 策略，限制 PC 网络接入，仅可访问部分内网、portal server 和 DHCP server&lt;br /&gt;
 3. 未认证前 PC 所有 http 请求都会被重定向到 portal server&lt;br /&gt;
 4. 用户登录后 BAS 会向 AAA server 请求认证，合法后即更改 ACL 策略，PC 可接入公网&lt;br /&gt;
-&lt;img data-src=&#34;https://raw.githubusercontent.com/yuejiancc/BLOG/master/images/webportal.drawio.png&#34; alt=&#34;流程图&#34; /&gt;&lt;/p&gt;
+&lt;img data-src=&#34;https://res.cloudinary.com/degnbzj9m/image/upload/v1636453531/Untitled_Diagram.drawio_hegvoc.png&#34; alt=&#34;流程图&#34; /&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;hr /&gt;
 &lt;h2 id=&#34;破解思路&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#破解思路&#34;&gt;#&lt;/a&gt; 破解思路&lt;/h2&gt;
