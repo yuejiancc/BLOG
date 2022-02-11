@@ -2,13 +2,13 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://blog.yuejian.fun</id>
     <title>月见的瞎叨叨</title>
+    <subtitle>Just for fun</subtitle>
+    <icon>https://blog.yuejian.fun/images/favicon.ico</icon>
     <link href="https://blog.yuejian.fun" />
+    <author>
+      <name>月见</name>
+    </author>
     <updated>2021-12-04T10:54:14.331Z</updated>
-    <category term="闲聊" />
-    <category term="分享" />
-    <category term="学校" />
-    <category term="网络" />
-    <category term="破解" />
     <entry>
         <id>https://blog.yuejian.fun/2021/12/04/hello-world/</id>
         <title>Hello World</title>
@@ -139,9 +139,9 @@
 如果你有什么疑问。。&lt;s&gt;那我也没有办法&lt;/s&gt;，我也菜死了&lt;/p&gt;
 &lt;p&gt;感谢&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cubGluZXNvZnQudG9wLw==&#34;&gt;双霖&lt;/span&gt;、&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly94bi0tbTgwYS5tbC8=&#34;&gt;天灵&lt;/span&gt;在我遇到困难时给予的帮助！！daisuki~&lt;/p&gt;
 </content>
-        <category term="学校" />
-        <category term="网络" />
-        <category term="破解" />
+        <category term="学校" scheme="https://blog.yuejian.fun/tags/%E5%AD%A6%E6%A0%A1/" />
+        <category term="网络" scheme="https://blog.yuejian.fun/tags/%E7%BD%91%E7%BB%9C/" />
+        <category term="破解" scheme="https://blog.yuejian.fun/tags/%E7%A0%B4%E8%A7%A3/" />
         <updated>2021-11-09T05:03:39.000Z</updated>
     </entry>
     <entry>
@@ -159,8 +159,9 @@
 &lt;p&gt;开学已经两个月了，有一些感悟和大学生活经验，下次再谈。溜了～～～&lt;/p&gt;
 &lt;p&gt;还有，&lt;s&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9zaG9rYS5sb3N0eXUubWUv&#34;&gt;霜月琉璃&lt;/span&gt;佬的 theme 太好看了吧&lt;/s&gt;&lt;/p&gt;
 </content>
-        <category term="闲聊" />
-        <category term="分享" />
+        <category term="闲聊" scheme="https://blog.yuejian.fun/categories/%E9%97%B2%E8%81%8A/" />
+        <category term="闲聊" scheme="https://blog.yuejian.fun/tags/%E9%97%B2%E8%81%8A/" />
+        <category term="分享" scheme="https://blog.yuejian.fun/tags/%E5%88%86%E4%BA%AB/" />
         <updated>2021-10-28T11:03:09.000Z</updated>
     </entry>
 </feed>

@@ -2,16 +2,16 @@
 <rss version="2.0">
     <channel>
         <title>月见的瞎叨叨</title>
+        <subtitle>Just for fun</subtitle>
+        <icon>https://blog.yuejian.fun/images/favicon.ico</icon>
         <link>https://blog.yuejian.fun</link>
+        <author>
+          <name>月见</name>
+        </author>
         <description></description>
         <language>zh-CN</language>
         <pubDate>Sat, 04 Dec 2021 18:54:14 +0800</pubDate>
         <lastBuildDate>Sat, 04 Dec 2021 18:54:14 +0800</lastBuildDate>
-        <category>闲聊</category>
-        <category>分享</category>
-        <category>学校</category>
-        <category>网络</category>
-        <category>破解</category>
         <item>
             <guid isPermalink="true">https://blog.yuejian.fun/2021/12/04/hello-world/</guid>
             <title>Hello World</title>
@@ -33,9 +33,9 @@
             <guid isPermalink="true">https://blog.yuejian.fun/2021/11/09/%E6%B5%85%E8%B0%88%E6%A0%A1%E5%9B%AD%E7%BD%91%E8%AE%A4%E8%AF%81%E5%8E%9F%E7%90%86-%E7%A0%B4%E8%A7%A3%E6%96%B9%E6%B3%95/</guid>
             <title>浅谈校园网认证原理&amp;多设备共享方法</title>
             <link>https://blog.yuejian.fun/2021/11/09/%E6%B5%85%E8%B0%88%E6%A0%A1%E5%9B%AD%E7%BD%91%E8%AE%A4%E8%AF%81%E5%8E%9F%E7%90%86-%E7%A0%B4%E8%A7%A3%E6%96%B9%E6%B3%95/</link>
-            <category>学校</category>
-            <category>网络</category>
-            <category>破解</category>
+            <category term="学校" scheme="https://blog.yuejian.fun/tags/%E5%AD%A6%E6%A0%A1/" />
+            <category term="网络" scheme="https://blog.yuejian.fun/tags/%E7%BD%91%E7%BB%9C/" />
+            <category term="破解" scheme="https://blog.yuejian.fun/tags/%E7%A0%B4%E8%A7%A3/" />
             <pubDate>Tue, 09 Nov 2021 13:03:39 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;前言&lt;/p&gt;
 &lt;blockquote&gt;
@@ -151,8 +151,9 @@
             <guid isPermalink="true">https://blog.yuejian.fun/2021/10/28/%E5%85%B3%E4%BA%8Eblog%E7%9A%84%E4%B8%80%E4%BA%9B%E8%A7%84%E5%88%92/</guid>
             <title>关于blog的一些规划</title>
             <link>https://blog.yuejian.fun/2021/10/28/%E5%85%B3%E4%BA%8Eblog%E7%9A%84%E4%B8%80%E4%BA%9B%E8%A7%84%E5%88%92/</link>
-            <category>闲聊</category>
-            <category>分享</category>
+            <category term="闲聊" scheme="https://blog.yuejian.fun/categories/%E9%97%B2%E8%81%8A/" />
+            <category term="闲聊" scheme="https://blog.yuejian.fun/tags/%E9%97%B2%E8%81%8A/" />
+            <category term="分享" scheme="https://blog.yuejian.fun/tags/%E5%88%86%E4%BA%AB/" />
             <pubDate>Thu, 28 Oct 2021 19:03:09 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;看看啊。。。距本站建立已经。。&lt;s&gt;懒得算了&lt;/s&gt;大概 3 个月了&lt;br /&gt;
 什么都没产出，实在没什么好写的，说到底还是我太菜了（（。&lt;br /&gt;
