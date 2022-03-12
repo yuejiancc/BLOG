@@ -31,11 +31,12 @@
         </item>
         <item>
             <guid isPermalink="true">https://blog.yuejian.fun/2021/11/09/%E6%B5%85%E8%B0%88%E6%A0%A1%E5%9B%AD%E7%BD%91%E8%AE%A4%E8%AF%81%E5%8E%9F%E7%90%86-%E7%A0%B4%E8%A7%A3%E6%96%B9%E6%B3%95/</guid>
-            <title>浅谈校园网认证原理&amp;多设备共享方法</title>
+            <title>校园网共享方案分享</title>
             <link>https://blog.yuejian.fun/2021/11/09/%E6%B5%85%E8%B0%88%E6%A0%A1%E5%9B%AD%E7%BD%91%E8%AE%A4%E8%AF%81%E5%8E%9F%E7%90%86-%E7%A0%B4%E8%A7%A3%E6%96%B9%E6%B3%95/</link>
             <category term="学校" scheme="https://blog.yuejian.fun/tags/%E5%AD%A6%E6%A0%A1/" />
             <category term="网络" scheme="https://blog.yuejian.fun/tags/%E7%BD%91%E7%BB%9C/" />
             <category term="破解" scheme="https://blog.yuejian.fun/tags/%E7%A0%B4%E8%A7%A3/" />
+            <category term="校园网" scheme="https://blog.yuejian.fun/tags/%E6%A0%A1%E5%9B%AD%E7%BD%91/" />
             <pubDate>Tue, 09 Nov 2021 13:03:39 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;前言&lt;/p&gt;
 &lt;blockquote&gt;
@@ -96,13 +97,13 @@
 &lt;h3 id=&#34;路由器curl认证&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#路由器curl认证&#34;&gt;#&lt;/a&gt; 路由器 curl 认证&lt;/h3&gt;
 &lt;blockquote&gt;
 &lt;p&gt;优点：网速快，延迟低&lt;br /&gt;
-缺点：连接不稳定，容易掉线&lt;/p&gt;
+缺点：&lt;s&gt;连接不稳定，容易掉线&lt;/s&gt;原来是加了检测&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;hr /&gt;
 &lt;blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;首先你需要一台可以刷固件的路由器&lt;/li&gt;
-&lt;li&gt;我用的红米 AC2100, 刷的 openwrt&lt;/li&gt;
+&lt;li&gt;我用的红米 AC2100, 刷的 ImmortalWrt&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/blockquote&gt;
 &lt;ul&gt;
@@ -131,7 +132,7 @@
 &lt;p&gt;如果你的学校有检测机制，请自行谷歌&lt;em&gt;校园网多设备防检测&lt;/em&gt;&lt;br /&gt;
 &lt;s&gt;幸好咱学校没&lt;/s&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;h3 id=&#34;路由器认证drcomversion52d版&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#路由器认证drcomversion52d版&#34;&gt;#&lt;/a&gt; 路由器认证 Drcom（version5.2,D 版）&lt;/h3&gt;
+&lt;h3 id=&#34;路由器认证drcomversion52d版仅支持drcom的方案&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#路由器认证drcomversion52d版仅支持drcom的方案&#34;&gt;#&lt;/a&gt; 路由器认证 Drcom（version5.2,D 版）（仅支持 Drcom 的方案）&lt;/h3&gt;
 &lt;p&gt;项目:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL2RyY29tcy9kcmNvbS1nZW5lcmljLmdpdA==&#34;&gt;drcom-generic&lt;/span&gt;&lt;br /&gt;
@@ -144,6 +145,12 @@
 &lt;hr /&gt;
 &lt;p&gt;暂时就写这么多了，开学以来一直在想办法折腾校园网，学校竟然一直没有告知可以用 drcom 的客户端认证，我也是无意中摸索出来。&lt;br /&gt;
 如果你有什么疑问。。&lt;s&gt;那我也没有办法&lt;/s&gt;，我也菜死了&lt;/p&gt;
+&lt;h2 id=&#34;最终解决方案&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#最终解决方案&#34;&gt;#&lt;/a&gt; 最终解决方案&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;前面搭建 softether vpn 的方法虽然可以通过 53 端口绕过认证，但只能搭在墙外，且通过 udp53 传输数据，很不稳定。&lt;br /&gt;
+我们都知道，校园网是个大内网，那我们把 softether server 搭在宿舍不就好啦，还能访问自己的内网资源，除了抖动高了些，上下行和宿舍的一样&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;具体方法参考 &lt;a href=&#34;#&#34; title=&#34;搭建softether server&#34;&gt;搭建 softetherVPN&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;感谢&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cubGluZXNvZnQudG9wLw==&#34;&gt;双霖&lt;/span&gt;、&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly94bi0tbTgwYS5tbC8=&#34;&gt;天灵&lt;/span&gt;在我遇到困难时给予的帮助！！daisuki~&lt;/p&gt;
  ]]></description>
         </item>
